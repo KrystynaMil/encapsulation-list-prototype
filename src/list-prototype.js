@@ -18,6 +18,20 @@ export const listPrototype = {
     console.log(this.state.name);
   },
   render: function () {
+
+    const div = document.createElement("div");
+
+    div.className = "warper";
+    div.id = "warpper";
+    const button = document.createElement('button');
+    button.id='remove';
+    button.innerHTML = '<i class="fa fa-close"></i>';
+    button.style.float = 'right';
+    button.addEventListener('click',function remove() {
+     this.parentNode.remove(); 
+    })
+    div.appendChild(button);
+
     const buttonEl = document.createElement('button');
     buttonEl.innerHTML = this.state.name;
     buttonEl.addEventListener('click', this.printState.bind(this));
