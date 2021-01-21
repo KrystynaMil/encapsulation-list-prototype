@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background: linear-gradient(120deg, #65c1f6, #3a6cf3);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+}
+
+header, 
+form {
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
