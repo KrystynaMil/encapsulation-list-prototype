@@ -10,7 +10,7 @@
     ·
     <a href="https://github.com/KrystynaMil/encapsulation-list-prototype/pulls">Request Feature</a>
   </p>
-</p>
+
 
 <!-- TABLE OF CONTENTS -->
 
@@ -76,7 +76,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 <!-- CONTACT -->
 
-Project Link: [List-Prototype](https://github.com/fmkarakus/list-prototype)
+Project Link: [List-Prototype])
 
 <!-- ACKNOWLEDGEMENTS -->
 
