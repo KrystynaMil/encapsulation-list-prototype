@@ -28,7 +28,7 @@
 
 ## About The Project
 
-The live demo is right [here](https://krystynamil.github.io/encapsulation-list-prototype/), it looks something like this:
+The live demo is right [here](https://krystynamil.github.io/encapsulation-list-prototype/public/index.html), it looks something like this:
 
 ![List-Prototype]()
 
@@ -46,7 +46,6 @@ The objective of this project is to build a simple html,CSS and JavaScript page 
 ### Built With
 
 - [Visual studio code](https://code.visualstudio.com/)
-- [Gitkraken](https://www.gitkraken.com)
 - [GitHub](https://github.com)
 - [JavaScript](https://www.javascript.com/)
 
