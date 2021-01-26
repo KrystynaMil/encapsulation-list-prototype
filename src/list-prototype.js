@@ -1,7 +1,7 @@
 "use strict";
 
 
-import { logger } from "../../lib/logger.js";
+
 
 
 /* List Prototype
@@ -111,14 +111,14 @@ export const listPrototype = {
   },
  
 
-  addTodos: function (event) {
+addTodos: function (event) {
     //debugger;
 
     const uniqueInputId = `${this.state.name}newToDo`;
 
     let newToDo = document.getElementById(uniqueInputId).value;
 
-    if (newToDo.keyCode === "") {
+    if (newToDo === "") {
       alert("Please write a Todo!");
       return;
     }
