@@ -124,7 +124,7 @@ export const listPrototype = {
     }
     this.state.todos.push({
       text: newToDo,
-      completed: false,
+      completed: false
     });
     
     this.displayTodos();
@@ -132,7 +132,7 @@ export const listPrototype = {
     logger.push({
       action: "Add Todo",
       stateName: this.state.name,
-      state: this.state,
+      state: this.state
     });
   },
   
