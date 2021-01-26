@@ -10,22 +10,22 @@ export const createNewListHandler = (event) => {
     return;
   }
 
+  document.body.style = "backdrop-filter: blur(2px) ;";
   const newList = Object.create(listPrototype);
   newList.state = {
-    name: event.target.value
+    name: event.target.value,
+    todos: [],
   };
 
   const renderedNewList = newList.render();
 
-
-  document.getElementById('lists')
-    .appendChild(renderedNewList);
+  document.getElementById("lists").appendChild(renderedNewList);
 
   logger.push({
-    action: 'create new list',
+    action: "create new list",
     event,
     newList,
-    renderedNewList
+    renderedNewList,
   });
-
+  event.target.value = "";
 };
